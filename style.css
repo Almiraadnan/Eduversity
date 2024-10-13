@@ -1,0 +1,543 @@
+@font-face {
+    font-family: extraLight;
+    src: url(./fonts/Glancyr-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: ExtraLightItalic;
+    src: url(./fonts/Glancyr-ExtraLightItalic.otf);
+}
+
+@font-face {
+    font-family: Light;
+    src: url(./fonts/Glancyr-Light.otf);
+}
+
+@font-face {
+    font-family: LightItalic;
+    src: url(./fonts/Glancyr-LightItalic.otf);
+}
+
+@font-face {
+    font-family: Thin;
+    src: url(./fonts/Glancyr-Thin.otf);
+}
+
+@font-face {
+    font-family: ThinItalic;
+    src: url(./fonts/Glancyr-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(./fonts/Glancyr-Medium.otf);
+}
+
+@font-face {
+    font-family: MediumItalic;
+    src: url(./fonts/Glancyr-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(./fonts/Glancyr-SemiBold.otf);
+}
+
+@font-face {
+    font-family: SemiBoldItalic;
+    src: url(./fonts/Glancyr-SemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(./fonts/Glancyr-Bold.otf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(./fonts/Glancyr-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(./fonts/Glancyr-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 160vh;
+    background-color: #000000;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+}
+
+.navbar h1 {
+    font-family: Thin;
+    font-size: 30px;
+}
+
+.anchor {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-family: Extralight;
+    font-size: 20px;
+}
+
+.anchor .line {
+    width: 2px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.icon-1 {
+    width: 30px;
+    background-color: #131313;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.anchor button {
+    border: none;
+    outline: none;
+    background-color: #D4FF00;
+    padding: 5px 35px;
+    font-family: Medium;
+    margin-left: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.para-4{
+    letter-spacing: 1px;
+}
+.group-1 {
+    display: flex;
+    width: 100%;
+
+}
+
+.text {
+    width: 40%;
+    margin-left: 120px;
+}
+
+.image {
+    display: flex;
+    width: 70%;
+}
+
+.image .image-1 {
+    width: 350px;
+    height: 420px;
+}
+
+.image img {
+    width: 150px;
+    height: 420px;
+    margin-left: 5px;
+}
+
+.span-1 {
+    font-family: Thin;
+}
+
+.span-2 {
+    font-family: SemiBold;
+    font-size: 45px;
+}
+
+.span-3 {
+    font-family: Thin;
+    font-size: 25px;
+}
+
+.text h1 {
+    margin-bottom: 30px;
+}
+
+.text p {
+    font-family: thin;
+    margin-bottom: 40px;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-family: Extralight;
+    font-size: 15px;
+}
+
+.icon-2 {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text .button {
+    border: none;
+    outline: none;
+    background-color: #D4FF00;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text button {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Medium;
+}
+
+.play {
+    width: 18px;
+    background-color: #131313;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.group-2 {
+    width: 90%;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: #070707;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.group-2 p {
+    letter-spacing: 1px;
+}
+
+.logos {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.para-1 {
+    margin-left: 500px;
+    padding-top: 20px;
+    font-family: Thin;
+    color: #B8B8B8;
+}
+
+.para-2 {
+    margin-left: 300px;
+    margin-top: 20px;
+    color: #575757;
+    font-family: bold;
+    text-transform: uppercase
+}
+
+.image-4 {
+    margin: 20px;
+}
+
+.unicaf {
+    width: 200px;
+}
+
+.united {
+    width: 80px;
+}
+
+.frobes {
+    width: 200px;
+}
+.nust {
+    width: 100px;
+}
+
+.main {
+    width: 100%;
+    height: 300vh;
+    padding-top: 20px;
+    color: black;
+    background-color: #EDEDED;
+}
+
+.numbers {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.number {
+    background-color: #D4FF00;
+    width: 25px;
+    height: 25px;
+    font-family: Medium;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.part-1 .num-2,
+.num-3 {
+    background-color: #D9D9D9;
+}
+
+.Experience-first{
+    text-align: center;
+    background-color: #EDEDED;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+p { 
+    font-family: Medium;
+    margin-bottom: 20px;
+}
+ h1 {
+    font-family: Medium;
+    margin-bottom: 20px;
+}
+.half h1 {
+    margin-bottom: 10px;
+}
+.half {
+    text-align: left;
+}
+.one-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.gallery-container {
+    margin-left: 10px;
+}
+
+.image-5 {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.bulb {
+    background-color: #D4FF00;
+    width: 110px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.bulb p {
+    text-align: left;
+}
+
+.bulb img {
+    width: 35px;
+    margin-right: 120px;
+}
+
+.gallery-1 {
+    display: flex;
+}
+
+.image-6 {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.gallery-2 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.gallery-2 img {
+    margin-left: 10px;
+}
+
+.image-7 {
+    width: 250px;
+}
+
+.image-8 {
+    width: 200px;
+}
+
+.para-3 {
+    font-family: light !important;
+    margin-top: 20px;
+}
+
+.gallery-3 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.image-9 {
+    width: 200px;
+}
+
+.image-10 {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.icon-3 {
+    width: 20px !important;
+    margin-bottom: 10px;
+}
+.Experience-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+}
+.exp-sec-right{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.exp-sec-right .num-1,
+.num-3 {
+    background-color: #D9D9D9;
+}
+.exp-sec-right .num-2{
+    background-color: #D4FF00;
+}
+.image-11{
+    width: 450px;
+}
+.Experience-third{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.image-12{
+   width: 500px;
+}
+.Exp-third-left .num-1,
+.num-2 {
+    background-color: #D9D9D9;
+}
+.Exp-third-left .num-3{
+    background-color: #D4FF00;
+}
+.footer{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.edu{
+    width: 100px;
+    background-color: #D4FF00;
+    position: relative;
+    bottom: 200px;
+    left: 140px;
+    z-index: 1;
+    padding: 25px;
+    border-radius: 50px;
+}
+.edu img{
+    width: 50px;
+}
+.certificate{
+    width: 90%;
+    height: 45vh;
+    background-color: white;
+    color: black;
+    position: relative;
+    bottom: 250px;
+    left: 70px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.certificate img{
+    width: 300px;
+    margin-right: 10px;
+}
+.cert-left{
+    margin-top: 50px;
+}
+.cert-left h1{
+    font-family: Regular;
+    line-height: 50px;
+}
+.footer-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+}
+.footer-cont h3{
+    font-family: Regular;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.footer-cont p{
+    font-family: thin;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+.footer-nav{
+    width: 60%;
+    height: 11vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    border-radius: 40px;
+    padding-right: 100px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Regular;
+    margin-left: 100px;
+}
+.footer-nav a:hover{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+
+}
